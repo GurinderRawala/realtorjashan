@@ -1,13 +1,13 @@
 import React from 'react';
 import HomeScreen from '../screens/home-screen';
-
-const ConfigRoutes = ({ Router }) =>{
-    const { Routes, Route } = Router
+import { Routes, Route  } from 'react-router-dom';
+import ContactScreen from '../screens/contact-screen';
+const ConfigRoutes = () =>{
 
     return(
-        
         <Routes>
             <Route path="/" element={<HomeScreen />} />
+            <Route path='/contact' element={<ContactScreen />} />
         </Routes>
     )
 }

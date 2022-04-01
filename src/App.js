@@ -1,23 +1,21 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './navbar';
-import { config } from './config-app';
-import { CurrentRoutes } from './routes';
+import { Provider } from 'react-redux'
+import Navbar from './components/navbar';
+import { BrowserRouter } from 'react-router-dom'
+import { AppRoutes } from './routes'
+import store from './redux/store';
 
-
-function App() {
-const { BrowserRouter  } = config.Router
+const App = () => {
   return (
-  <div className='container-fluid'>
-    <BrowserRouter>
-    <Navbar 
-      Router={config.Router}
-      />
-    <CurrentRoutes 
-    Router={config.Router}
-    />
-    </BrowserRouter >
-  </div>
+  <Provider store={store}>  
+    <div className='container-fluid'>
+      <BrowserRouter>
+        <Navbar />
+        <AppRoutes.ConfigRoutes />
+      </BrowserRouter >
+    </div>
+  </Provider>
   );
 }
 
