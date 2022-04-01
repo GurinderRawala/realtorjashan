@@ -1,8 +1,12 @@
 import React from 'react';
 
-const SlideShowContainer = ({ Image }) =>{
+const SlideShowContainer = ({ Image, Text }) =>{
     return(
-      <img src={Image}  style={{width: '100%', height: 450}} alt="test"/>
+      <div style={{position: 'relative'}}>
+        <div className='shade'></div>
+        <Text />
+        <Image />
+      </div>
     )
 }
 

@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import { FaBars }  from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
-const NavbarContainer = ({children}) =>{
+const NavbarContainer = ({children, title}) =>{
     const[show, setShow] = useState(false)
     return(
       <div className='row'>
-          <div className='col-sm-12 App-row-flex theme shadow' style={{justifyContent: 'space-between'}}>
-              <h3>REALTOR JASHAN</h3>
+          <div className='col-sm-12 App-row-flex theme shadow sticky' style={{justifyContent: 'space-between'}}>
+              <h3>{title}</h3>
               <div className='Mobile-link'>
               <button className='btn btn-Link' onClick={() => setShow(!show)}>
                   {
