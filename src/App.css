@@ -30,17 +30,29 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.no-padding{
+  padding: 0px 0px 0px 0px;
+}
+.social-link a{
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+.social-link a:hover{
+  color: goldenrod;
+  text-decoration: none;
+}
 
 .theme{
-  background-color: orangered;
-  color: white;
+  background-image: linear-gradient(to right, black , transparent);
+  color: goldenrod;
   padding: 12px 12px;
 }
 
 .shadow{
   padding: 15px;
   margin-top: 3px;
-  box-shadow: 0 3px 3px #00000050, 0 3px 3px #00000050;
+  box-shadow: 0 3px 3px #000000, 0 3px 3px #000000;
 }
 
 /*scroll bar css*/
@@ -70,12 +82,42 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    left: 0;
   }
+ 
 
 .myContainer{
   background-color: #f1f1f1;
-  border-radius: 10px;
   padding: 8px 8px;
+}
+.logo-firstname{
+  color: darkgrey;
+  font-size: 55px;
+  font-weight: 700;
+}
+.logo-lastname{
+  color: goldenrod;
+  font-size: 75px;
+  font-weight: 700;
+}
+.welcome-container{
+ padding: 75px 25px 75px 35px;
+}
+.app-statement{
+ border-left: 8px solid goldenrod;
+ padding: 10px 10px;
+}
+button{
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+}
+button:hover {
+  background-color: black;
+  border: none;
+  color: goldenrod;
 }
 
 .slide-image{
@@ -109,8 +151,25 @@
 
 .App-link a:hover{
   text-decoration: none;
-  font-weight: 700;
-  color: #fff;
+  color: goldenrod;
+}
+.dropdown-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  text-align: center;
+  padding: 25px 25px;
+  z-index: 3;
+}
+.dropdown-shade {
+ position: absolute;
+ top: 68px;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: #daa52090;
+ z-index: 2;
 }
 
 @keyframes App-logo-spin {
@@ -148,6 +207,13 @@
 }
 
 @media only screen and (max-width: 576px) {
+  /* For Mobile Phones */
+  .logo-firstname{
+    font-size: 45px;
+  }
+  .logo-lastname{
+    font-size: 55px;
+  }
   .Lg-link{
     display: none;
   }
@@ -159,5 +225,42 @@
   }
   .slide-image{
     height: 350px;
+  }
+  button{
+    padding: 10px 12px 10px 12px;
+  }
+  .social-link{
+  background-color: goldenrod;
+  padding: 3px 3px;
+ }
+ .social-link a:hover{
+   color: black
+ }
+}
+@media only screen and (max-width: 820px) {
+  .social-link{
+  background-color: goldenrod;
+  padding: 3px 3px;
+ }
+ .social-link a:hover{
+  color: black
+}
+  button{
+    padding: 8px 10px 8px 10px;
+  }
+  .logo-firstname{
+    font-size: 35px;
+  }
+  .logo-lastname{
+    font-size: 45px;
+  }
+  .Lg-link{
+    display: none;
+  }
+  .App-link a{
+    display: block;
+  }
+  .Mobile-link{
+    display: flex;
   }
 }
