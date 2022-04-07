@@ -16,7 +16,7 @@ const NavbarContainer = ({children, title}) =>{
     }, [show])
     return(
       <div className='row sticky'>
-          <div className='col-sm-12 App-row-flex theme shadow' style={{justifyContent: 'space-between'}}>
+          <div className='col-sm-12 App-row-flex theme' style={{justifyContent: 'space-between'}}>
               <div className='App-row-flex' style={{ justifyContent: 'space-evenly'}}>
               <h1>{title}</h1>
               <div className='App-link Lg-link'>{ children }</div>

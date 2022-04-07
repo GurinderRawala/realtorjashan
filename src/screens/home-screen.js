@@ -1,12 +1,13 @@
 import React from 'react';
-import SlideShow from '../components/slideshow';
+import Introduction from '../components/introduction';
 import WelcomSection from '../components/welcome-section';
 
 const HomeScreen = () =>{
     return(
       <>
       <WelcomSection />
-      <SlideShow />
+      <br />
+      <Introduction />
       </>
     )
 }
