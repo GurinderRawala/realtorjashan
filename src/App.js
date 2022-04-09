@@ -11,7 +11,7 @@ const App = () => {
   AosInit()
   return (
   <Provider store={store}>  
-    <div className='container-fluid'>
+    <div className='container-fluid main-container'>
       <BrowserRouter>
         <Navbar />
         <AppRoutes.ConfigRoutes />

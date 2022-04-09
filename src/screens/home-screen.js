@@ -1,5 +1,6 @@
 import React from 'react';
 import Introduction from '../components/introduction';
+import PhotoViewer from '../components/photo-viewer';
 import WelcomSection from '../components/welcome-section';
 
 const HomeScreen = () =>{
@@ -8,6 +9,8 @@ const HomeScreen = () =>{
       <WelcomSection />
       <br />
       <Introduction />
+      <br />
+      <PhotoViewer />
       </>
     )
 }
