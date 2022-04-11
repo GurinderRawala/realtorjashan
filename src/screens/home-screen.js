@@ -7,9 +7,7 @@ const HomeScreen = () =>{
     return(
       <>
       <WelcomSection />
-      <br />
       <Introduction />
-      <br />
       <PhotoViewer />
       </>
     )

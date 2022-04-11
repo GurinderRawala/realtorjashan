@@ -7,9 +7,14 @@ const VideoSection = () =>{
            <div className='shade frame' style={{ backgroundColor: 'transparent', opacity: 1, zIndex: 1}}>
             <img src={frame} style={{width: '100%', height: '100%'}} alt='frame' />
            </div>
-       <video muted autoPlay loop playsInline className='app-video'>
-           <source src={video}></source>
-       </video>
+       <video 
+        muted 
+        autoPlay 
+        loop 
+        playsInline
+        className='app-video' 
+        src={video}
+       />
        </div>
     )
 }
