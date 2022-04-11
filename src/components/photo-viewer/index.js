@@ -5,6 +5,7 @@ import NextImage from './next-image';
 import ViewerControlls from './viewer-controlls';
 import viewerData from './viewer-data';
 import { Style } from './viewer-styles';
+import './photo-viewer.css'
 const inital = { currentIndex: 0, nextIndex: 1 }
 const PhotoViewer = () =>{
     const { nextImage, currentImage, changeSlide } = Action(viewerData, inital)

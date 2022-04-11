@@ -9,8 +9,5 @@ export const Style = {
     img:{
         width: '100%',
         height: 350
-    },
-    button: {
-        fontWeight: 'bold'
     }
 }

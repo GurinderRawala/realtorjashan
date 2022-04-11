@@ -1,24 +1,20 @@
 import React from "react";
-import { GrNext } from 'react-icons/gr';
-import { MdOutlineArrowBackIosNew } from 'react-icons/md';
-import { Style } from "./viewer-styles";
+import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 const ViewerControlls = ({actionButton}) =>{
     return(
-        <div className="App-row-flex slide-text" style={{justifyContent: 'space-between', top: '50%'}}>
-                <b
-                className="btn btn-Link" 
+        <div className="App-row-flex slide-text" style={{justifyContent: 'space-between', top: '55%'}}>
+                <div
                 onClick={() => actionButton(-1)}
-                style={Style.button}
+                className='viewer-button'
                 > 
-                <MdOutlineArrowBackIosNew  size={35}/>
-                </b>
-                <b 
-                className="btn btn-Link" 
+                <FiChevronLeft  size={55}/>
+                </div>
+                <div
                 onClick={() => actionButton(1)}
-                style={Style.button}
+                className='viewer-button'
                 > 
-                <GrNext size={35} />
-                </b>
+                <FiChevronRight size={55}  />
+                </div>
         </div>
     )
 }
