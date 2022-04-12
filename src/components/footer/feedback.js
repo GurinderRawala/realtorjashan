@@ -8,7 +8,7 @@ const FeedBack = ({title, questions}) =>{
         {
             questions.map((question, i) => <div key={i} className="App-row-flex" style={{justifyContent: 'flex-start'}}>
             <input type="checkbox" name={question.id} value={question.value} style={footerStyle.checkbox} /> &nbsp;
-            <label for={question.id}>{question.name}</label><br />
+            <label>{question.name}</label><br />
             </div>)
         }
         <br />

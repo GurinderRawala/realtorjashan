@@ -14,13 +14,13 @@ const Footer = () =>{
             <div className='shade' style={{backgroundColor: '#333'}}></div>
             <div style={{zIndex: 3, padding: 8, position: 'relative', color: '#fff'}}>
             <div className='row'>
-                <div className='col-sm-2' style={{marginBottom: 10}}>
+                <div className='col-sm-1' style={{marginBottom: 5}}>
                     <Logo logoStyle={{fontSize: 75}}/>
                 </div>
                 <div className='col-sm-3'>
                     <Explore title={footerData.titleS2} links={footerData.linksS2}/>
                 </div>
-                <div className='col-sm-3'>
+                <div className='col-sm-4'>
                     <ContactUs title={footerData.titleS3} email={footerData.email} phone={footerData.phone} />
                     <br />
                 </div>

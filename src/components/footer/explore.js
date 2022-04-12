@@ -7,8 +7,8 @@ const Explore = ({title, links}) =>{
         <br />
         <div className='App-link'>
             {
-                links.map((link, i) => <div>
-                    <Link key={i} to={link.path} style={{display: 'block'}}>{link.name}</Link>
+                links.map((link, i) => <div key={i}>
+                    <Link to={link.path} style={{display: 'block'}}>{link.name}</Link>
                     </div>
                     )
             }
