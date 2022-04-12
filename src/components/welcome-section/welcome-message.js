@@ -1,7 +1,7 @@
 import React from "react";
 const WelcomeMessage = () =>{
     return(
-        <div data-aos="fade-right" className="app-statement">
+        <div className="app-statement">
             <p>
             Ryan Serhant is a real estate broker, CEO, and founder of SERHANT., a 
             vertically-integrated mega brokerage comprising an in-house film studio, 

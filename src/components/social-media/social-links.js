@@ -7,7 +7,7 @@ const SocialLinks = () =>{
         <Link to="#" >
             <FaFacebook size={24}/>
         </Link>
-        <Link to="#" >
+        <Link to="/contact" >
             <FaInstagram size={24}/>
         </Link>
         <Link to="#" >

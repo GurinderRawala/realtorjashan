@@ -1,8 +1,8 @@
 import React from 'react';
 import SocialLinks from './social-links';
-const SocialMedia = () =>{
+const SocialMedia = ({socialStyle, socialForFooter}) =>{
     return(
-      <div className='social-link App-row-flex' style={{ justifyContent: 'space-evenly'}}>
+      <div className={socialForFooter?'App-link App-row-flex' :'social-link App-row-flex'} style={socialStyle?socialStyle: { justifyContent: 'space-evenly'}}>
           <SocialLinks />
       </div>
     )

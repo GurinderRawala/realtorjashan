@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { AppRoutes } from './routes'
 import store from './redux/store';
 import { AosInit } from './aos';
+import Footer from './components/footer';
 
 const App = () => {
   AosInit()
@@ -15,6 +16,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <AppRoutes.ConfigRoutes />
+        <Footer />
       </BrowserRouter >
     </div>
   </Provider>
