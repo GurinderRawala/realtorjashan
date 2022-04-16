@@ -26,6 +26,7 @@
   color: white;
  */
 }
+
 .App-row-flex {
   display: flex;
   flex-direction: row;
@@ -44,6 +45,8 @@
   background-clip: text;
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
+  color: transparent;
+  mix-blend-mode: screen;
   margin-top: 20px;
   -webkit-font-smoothing: antialiased;
 }
