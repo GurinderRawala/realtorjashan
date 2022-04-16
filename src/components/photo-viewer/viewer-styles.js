@@ -1,7 +1,7 @@
 export const Style = {
     wrapper:{
         position: 'relative',
-        padding: 0
+        padding: 0,
     },
     nextImage:{
         zIndex: -1

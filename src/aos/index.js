@@ -4,6 +4,6 @@ import { useEffect } from "react";
 
 export const AosInit = () =>{
     useEffect(() =>{
-        Aos.init({duration: 1500})
+        Aos.init({duration: 1000})
     },[])
 }

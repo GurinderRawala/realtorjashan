@@ -1,0 +1,42 @@
+.sell-like-text{
+    font-size: 28px;
+    color: goldenrod;
+    font-weight: 700;
+}
+.sell-like-form-container{
+    background-color: #ffffff99;
+    padding: 25px 25px;
+    width: 100%;
+    text-align: left;
+}
+.sell-like-form-container form{
+    width: 60%;
+}
+.title-text{
+    font-size: 65px;
+    line-height: 60px;
+}
+.gold-text{
+    color: goldenrod;
+    font-weight: 900;
+}
+.sell-it-link-container{
+    background-color: rgb(255, 136, 0);
+    opacity: 0.7;
+    padding: 25px 25px;
+    width: 100%;
+    text-align: left;
+    height: 180px;
+    color: #fff;
+    margin-top: 8px;
+}
+.sell-it-link-container a{
+    text-decoration: none;
+    color: black;
+}
+.sell-it-link-container p{
+    font-size: 35px;
+}
+.sell-it-link-container a:hover{
+    font-weight: 700;
+}

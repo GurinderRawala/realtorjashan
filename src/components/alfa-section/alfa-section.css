@@ -13,8 +13,11 @@
     padding: 8px 8px;
 }
 .section-text{
-    padding: 8px 8px;
+    padding: 12px 12px;
     font-size: large;
+}
+.section-text p{
+    padding: 8px;
 }
 
 @media screen and (max-width: 820px) {

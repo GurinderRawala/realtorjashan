@@ -11,8 +11,8 @@ const NavbarContainer = ({children, title}) =>{
     }
     useEffect(() =>{
         show
-      ? $('#mobile-menu').fadeIn()
-      : $('#mobile-menu').fadeOut()
+      ? $('#mobile-menu').fadeIn() && $('#welcome-buttons').hide()
+      : $('#mobile-menu').fadeOut() && $('#welcome-buttons').show()
     }, [show])
     return(
       <div className='row sticky'>
