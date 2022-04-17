@@ -1,5 +1,5 @@
 export const Content =  {
-  backgroundImage: 'https://cdn.audleytravel.com/1050/751/79/1314674-banff-national-park-alberta.webp',
+  backgroundImage: 'https://th.bing.com/th/id/R.926142ec10e94218d44ab20f8f839208?rik=e8k348Ky3%2bdDIA&riu=http%3a%2f%2fpixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fSunset-Beaches-Backgrounds.jpg&ehk=50QURJIXrlDdCSaOUTLwBe%2flUpzQvPdOPk6HVps%2bvYc%3d&risl=1&pid=ImgRaw&r=0',
   title: 'REAL ESTATE ENTREPRENEUR',
   intro: `Ryan is the founder of SERHANT., 
   the multidimensional real estate brokerage at the 

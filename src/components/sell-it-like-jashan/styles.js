@@ -9,12 +9,13 @@ export const s = {
         padding: 5
     },
     sideA: {
+        height: 750,
         justifyContent: 'space-between', 
         padding: 0
     },
     sideB: {
-        justifyContent: 'flex-end', 
-        height: 490, 
+        justifyContent: 'space-between', 
+        height: 750, 
         padding: 0
     }
 }

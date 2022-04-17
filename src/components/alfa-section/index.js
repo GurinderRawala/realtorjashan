@@ -16,7 +16,7 @@ const AlfaSection = () =>{
                             <div style={s.container}>
                             <Logo />
                             </div>
-                            <img src={data.imgUrl} data-aos="fade-down-left" style={{maxWidth: '100%', height: 'auto'}} alt='left-img'/>
+                            <img src={data.imgUrl} data-aos="fade-down-left" style={{maxWidth: '100%', height: 450}} alt='left-img'/>
                         </div>
                         <div className='col-sm-12 col-lg-8' style={{overflow: 'hidden'}}>
                             <div className='row'>

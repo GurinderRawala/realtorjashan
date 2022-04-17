@@ -9,12 +9,13 @@ const VideoSection = () =>{
            </div>
        <video 
         muted 
-        autoPlay 
-        loop 
+        autoPlay="autoplay"
+        loop="loop"
         playsInline
         className='app-video' 
-        src={video}
-       />
+       >
+        <source src={video} type='video/mp4'/>
+        </video>
        </div>
     )
 }
