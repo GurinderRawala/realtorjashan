@@ -1,6 +1,10 @@
 async function saveContact(contactUsRepo, contactInfo, callBack){
-    const res = await contactUsRepo.create(contactInfo)
-    callBack(null, res)
+    try{
+        const res = await contactUsRepo.create(contactInfo)
+        callBack(null, res)
+    }catch(err){
+        callBack(err)
+    }
 }
 async function findContact(contactUsRepo, contactInfo, callBack){
     const res = await contactUsRepo.findById(contactInfo.id)

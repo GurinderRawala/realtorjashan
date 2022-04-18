@@ -41,26 +41,18 @@ html, body{
   color: #333;
 }
 .app-heading{
-  /* background-repeat: repeat; 
-  background-clip: text;
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent; 
-  color: transparent;
-  mix-blend-mode: screen;
-  margin-top: 20px;
-  -webkit-font-smoothing: antialiased; */
   font-family: montserrat,sans-serif;
-    font-size: 5.25vw;
-    font-weight: 800;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: .9;
-    background: transparent;
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 5.25vw;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: .9;
+  background: transparent;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .theme-alfa{
@@ -275,7 +267,6 @@ button:hover {
  padding: 0;
  margin-top: -90px;
 }
-
 @media screen and (max-width: 576px) {
   /* For Mobile Phones */
   .intro-image{

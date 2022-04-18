@@ -11,6 +11,8 @@
     "aos": "^2.3.4",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
+    "cors": "^2.8.5",
+    "http-errors": "^2.0.0",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.2",
@@ -24,11 +26,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "start-client": "react-scripts start",
-  "build": "react-scripts build && (cd realtor-jashan-server && npm install)",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "start": "cd realtor-jashan-server && npm run dev"
+    "start-client": "react-scripts start",
+    "build": "react-scripts build && (cd realtor-jashan-server && npm install)",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "cd realtor-jashan-server && npm run dev"
   },
   "eslintConfig": {
     "extends": [
