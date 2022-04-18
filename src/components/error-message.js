@@ -19,7 +19,7 @@ const ErrorMessage = ({ response }) =>{
         {
             response === 'Created'
             ? <div className="alert alert-success text-center" style={{borderRadius: 0}}>
-                We will get back to you shortly.
+                We will get back to you shortly
               </div>
             : null
         }
