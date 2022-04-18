@@ -10,9 +10,10 @@ module.exports.startServer = async (config) =>{
     const modules = configureModules(config)
     createConnection(config)
     const server = express()
-    const publicPath = path.join(__dirname, '..', 'build')
+    const publicPath = path.join(__dirname, '../../', 'build')
 
     server.use(cors())
+    console.log(publicPath)
     server.use(express.static(publicPath))
     server.use(bodyParser.json())
     registerAllRoutes(server, modules)
