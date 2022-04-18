@@ -269,6 +269,9 @@ button:hover {
 }
 @media screen and (max-width: 576px) {
   /* For Mobile Phones */
+  .app-heading{
+    font-size: 9.25vw;
+  }
   .intro-image{
     height: 350px;
     margin-left: 0px;

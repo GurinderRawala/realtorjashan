@@ -30,8 +30,9 @@
     "build": "react-scripts build && (cd realtor-jashan-server && npm install)",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "cd realtor-jashan-server && npm run dev"
+    "start": "cd realtor-jashan-server && npm start"
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
