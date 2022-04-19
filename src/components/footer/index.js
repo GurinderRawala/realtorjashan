@@ -12,7 +12,7 @@ const Footer = () =>{
         style={{position: 'relative', backgroundImage: `url('${footerData.image}')`, paddingBottom: 55, paddingTop: 35}}>
             <br />
             <div className='shade' style={{backgroundColor: '#333'}}></div>
-            <div style={{zIndex: 3, padding: 8, position: 'relative', color: '#fff'}}>
+            <div style={{zIndex: 2, padding: 8, position: 'relative', color: '#fff'}}>
             <div className='row'>
                 <div className='col-sm-1' style={{marginBottom: 5}}>
                     <Logo logoStyle={{fontSize: 75}}/>

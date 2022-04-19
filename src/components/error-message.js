@@ -1,19 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as $ from 'jquery';
+
 const ErrorMessage = ({ response }) =>{
-    let errKeys;
-    let errMessage = ""
-    if(response?.err){
-        const { errors } = response.err
-        errKeys = Object.keys(errors)
+    useEffect(() =>{
         $(`input`).css({ "border-left": "1px solid #33333355" })
-        for(const xx in errKeys){
-            errMessage += errKeys[xx].charAt(0).toUpperCase() + errKeys[xx].slice(1) + ", "
-            $(`input[name = "${errKeys[xx]}"]`).css({ "border-left": "8px solid #b12" })
+        if(response?.err){
+             response.err.map((error, i) => $(`input[name = "${error.param}"]`).css({ "border-left": "8px solid #b12" }) )
         }
-
+        return()=>{}
+    }, [response])
+    const CreateErrorMsg = () =>{
+        return(
+            <ul className="list-group">
+            {
+                response.err?.map((error, i) =>
+                <li key={i} className="list-group-item text-center" style={{color: '#b12', fontSize: 14}}>{error.msg}</li>
+                )
+            }
+            </ul>
+        )
     }
-
+    console.log(response)
     return(
         <div className="container my-3">
         {
@@ -24,12 +31,14 @@ const ErrorMessage = ({ response }) =>{
             : null
         }
         {
+            // eslint-disable-next-line valid-typeof
             response?.err
-            ?<div className="alert alert-danger text-center" style={{borderRadius: 0}}>
-            { `Please Enter Your ${errMessage.trim().slice(0, -1)}` }
-          </div>
-          :null
+            ?<CreateErrorMsg />
+            :response?.serverErr?._message
+                ? response.serverErr._message
+                :null
         }
+
         </div>
     )
 }

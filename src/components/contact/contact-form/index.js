@@ -6,7 +6,7 @@ import { submitForm } from "./submit-form";
 const ContactForm = () =>{
     const [response, setResponse] = useState(undefined)
     const {collection, handleInput} = CollectInput()
-    const { submit } = submitForm(collection, setResponse)
+    const { submit } = submitForm({ collection, handleInput }, setResponse)
     return(
         <>
             <ErrorMessage response={response} />

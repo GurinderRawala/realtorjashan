@@ -16,9 +16,11 @@ module.exports.startServer = async (config) =>{
     server.use(express.static(publicPath))
     server.use(bodyParser.json())
     registerAllRoutes(server, modules)
+    server.use('*', (req, res, next) =>{
+        res.sendFile(path.join(__dirname, '../../', 'build/index.html'))
+    })
     server.use( (error, req, res, next) => {
-        res.status(error.status || 500)
-        res.send({err: error})
+        res.send(error)
         next()
     }) 
     server.listen(config.port, () => console.log(`server is running on port ${config.port}`))

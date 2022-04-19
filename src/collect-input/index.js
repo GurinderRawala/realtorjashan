@@ -2,12 +2,13 @@ import { useReducer } from "react"
 const reducer = (state, action) =>{
     const { type, payload } = action
     if(type === 'clear'){
-        return action.payload;
+        return {};
     }
     return{
         ...state,
         [type]: payload
     }
+   
 }
 export const CollectInput = () =>{
     const [collection, dispatch] = useReducer(reducer, {})
