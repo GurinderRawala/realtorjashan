@@ -4,7 +4,6 @@ const Explore = ({title, links}) =>{
     return(
         <>
         <h1>{title}</h1>
-        <br />
         <div className='App-link'>
             {
                 links.map((link, i) => <div key={i}>

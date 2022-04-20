@@ -20,7 +20,11 @@ module.exports.startServer = async (config) =>{
         res.sendFile(path.join(__dirname, '../../', 'build/index.html'))
     })
     server.use( (error, req, res, next) => {
-        res.send(error)
+        let err;
+        Object.keys( error?.err || error?.serverErr ).length === 0
+        ?err = { [Object.keys(error)]: {_message: "Something went Wrong. Contact admin for support"} }
+        :err= error
+        res.send(err)
         next()
     }) 
     server.listen(config.port, () => console.log(`server is running on port ${config.port}`))

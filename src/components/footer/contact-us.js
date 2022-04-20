@@ -7,7 +7,6 @@ const ContactUs = ({title, phone, email}) =>{
     return(
         <>
         <h1>{title}</h1>
-        <br />
         <FaPhoneAlt /> &nbsp;{phone} <br />
         <HiOutlineMail /> &nbsp;{email} <br />
         <SocialMedia 

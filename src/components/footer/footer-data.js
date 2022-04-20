@@ -8,7 +8,7 @@ export default {
         {path: '/contact', name: 'Contact'}
     ],
     titleS3: 'Contact',
-    phone: '646.480.7665',
+    phone: '(437) 777-0007',
     email: 'jashan_grewal@hotmail.com',
     titleS4: 'What are you interested in?',
     feedBack: [

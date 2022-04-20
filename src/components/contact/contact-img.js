@@ -6,11 +6,11 @@ const ContactImg = ({img}) =>{
         <div style={{position: 'relative', zIndex: 1}}>
         <div data-aos="fade-up" 
         className="contact-img backimg shade" 
-        style={{ backgroundImage: `url(${img})`, ...s.domenstionImg, zIndex: -1 }}>
+        style={{ backgroundImage: `url(${img})`, ...s.domenstionImg, zIndex: -1, position: 'relative' }}>
         </div>
         <div data-aos="fade-up" 
             className="contact-img backimg shade" 
-            style={{ backgroundImage: `url(${img})`, ...s.domenstionImg , zIndex: 1, marginLeft: 15, marginTop: 15, opacity: 1, backgroundColor: 'transparent' }}>
+            style={{ backgroundImage: `url(${img})`, ...s.domenstionImg , marginTop: 15, marginLeft: 15, zIndex: 1, opacity: 1, backgroundColor: 'transparent' }}>
         </div>
         </div>
     </div>

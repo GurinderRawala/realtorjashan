@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { CollectInput } from "../../../collect-input";
 import ErrorMessage from "../../error-message";
 import { s } from "../contact-styles";
 import { submitForm } from "./submit-form";
 const ContactForm = () =>{
-    const [response, setResponse] = useState(undefined)
     const {collection, handleInput} = CollectInput()
-    const { submit } = submitForm({ collection, handleInput }, setResponse)
+    const { submit, res } = submitForm({ collection })
+    useEffect(() =>{
+        if(res.response === "Created") handleInput('', 'clear')
+        return () => {}
+    }, [handleInput, res])
     return(
         <>
-            <ErrorMessage response={response} />
+            <ErrorMessage response={res?.response} isLoading={res?.isLoading} />
             <form onSubmit={submit}>
             <div className="container">
             <div className="row">

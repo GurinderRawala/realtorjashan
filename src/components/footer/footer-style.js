@@ -11,7 +11,8 @@ export default{
     },
     input: {
         borderRadius: 0,
-        padding: 18
+        padding: 18,
+        width: '70%'
     }, 
     copyright: {
         padding: 10

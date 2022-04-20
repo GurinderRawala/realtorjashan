@@ -13,7 +13,7 @@ export default  [
                         title: `Text Here`
                     },
                     {
-                        url: 'https://scontent.fybz1-1.fna.fbcdn.net/v/t39.30808-6/240899161_375539194176410_2209414020098301813_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=lZgrHjA8V50AX89BAlT&_nc_ht=scontent.fybz1-1.fna&oh=00_AT-Q3fhop_HA8Zthemdn79ZRp6UVhHDFmPRTZgm9dOrwzg&oe=62591470',
+                        url: 'https://th.bing.com/th/id/R.1a9697c9c793cd5299e72842f005bde4?rik=fR3w6n7wraIWjg&pid=ImgRaw&r=0',
                         title: 'text here'
                     }
 

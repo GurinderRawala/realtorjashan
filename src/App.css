@@ -2,7 +2,6 @@
   text-align: center;
 }
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 .main-container{
@@ -11,7 +10,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite .9s linear;
   }
 }
 
@@ -74,7 +73,7 @@ html, body{
   padding: 0px 0px 0px 0px;
 }
 .social-link a{
-  color: black;
+  color: #f1f1f1;
   text-decoration: none;
   margin: 10px;
 }

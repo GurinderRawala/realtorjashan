@@ -1,11 +1,11 @@
 import { apiRequest } from "../../../api-request"
+import realtorJashanServer from "../../../api/realtor-jashan-server"
 
-export const submitForm = ({collection, handleInput}, setResponse) =>{
-    const submit = async (event) =>{
+export const submitForm = ({ collection }) =>{
+    const { post, res } = apiRequest()
+    const submit = (event) =>{
         event.preventDefault()
-        const res = await apiRequest.post('/api/contact-us', collection)
-        if ( res === 'Created' ) handleInput("", "clear") 
-        setResponse(res)
+        post(realtorJashanServer,'/api/contact-us', collection)
     }
-    return { submit }
+    return { submit, res }
 }

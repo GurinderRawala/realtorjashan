@@ -1,7 +1,7 @@
 .contact-img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin-top: -150px;
+    margin-top: -78px;
 }
 .contact-heading{
     font-size: 5.25vw;
@@ -20,12 +20,10 @@
     margin-top: 8px;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 912px) {
     .contact-img{
         margin-top: 0;
     }
-}
-@media screen and (max-width: 785px) {
     .row-reverse-phone {
         display: flex;
         flex-direction: column-reverse;
@@ -37,9 +35,9 @@
     .contact-main{
         position: relative;
         z-index: 2;
-        margin: 250px 0px 25px 18px;
+        margin: -450px 0px 15px 0px;
         background-color: #fff;
-        width: 100%;
+        max-width: 100%;
         opacity: .9;
         padding: 25px 25px;
     }

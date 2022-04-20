@@ -1,10 +1,11 @@
-import realtorJashanServer from "../api/realtor-jashan-server"
-
-export const getRequest = async (url) =>{
+export const getRequest = async (api, url, handleInput) =>{
     try{
-        const response = await realtorJashanServer.get(url)
-        return response.data
+        handleInput(true, "isLoading")
+        const response = await api.get(url)
+        handleInput(false, "isLoading")
+        handleInput(response.data, "response")
     }catch(err){
-        return err.response.data
+        handleInput(err.response.data, "response")
+        handleInput(false, "isLoading")
     }
 }
