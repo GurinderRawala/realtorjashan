@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./api",
+    "start": "node ./api",
     "heroku-postbuild": "cd ../ && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
