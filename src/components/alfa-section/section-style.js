@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-anonymous-default-export
 export const s = {
     container: {
         position: 'relative',

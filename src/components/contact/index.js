@@ -10,12 +10,12 @@ const Contact = () =>{
     return(
         <div className="row row-reverse-phone">
             <div className="col-sm-12 col-lg-7 pt-5 contact-main">
-              <Heading data={data}/>
-              <ContactForm />
-              <ContactInfo info={data.contactInfo}/>
-              <MapEmbed mapUrl={data.mapEmbedUrl}/>
+                <Heading data={data}/>
+                <ContactForm />
+                <ContactInfo info={data.contactInfo}/>
+                <MapEmbed mapUrl={data.mapEmbedUrl}/>
             </div>
-          <ContactImg img={data.img} />
+            <ContactImg img={data.img} />
         </div>
     )
 }

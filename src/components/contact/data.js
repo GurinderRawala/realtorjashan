@@ -1,5 +1,6 @@
+import fullImg from '../../assets/full-img-jashan.jpg';
 export const data = {
-    img: 'https://ryanserhant.com/wp-content/uploads/2020/08/agent-photo-653x1024.jpg',
+    img: fullImg,
     heading: {
         partOne: 'CONTACT',
         partTwo: 'JASHAN GREWAL'

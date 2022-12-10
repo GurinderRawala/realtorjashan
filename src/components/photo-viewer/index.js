@@ -12,11 +12,11 @@ const PhotoViewer = () =>{
     return(
         <div className='row'>
             <div data-aos='fade-down' className='col-sm-12 slide-image my-3' style={Style.wrapper}>
-            <NextImage image={nextImage.url}/>
-            <CurrentImage image={currentImage.url} />
-            <ViewerControlls 
+                <NextImage image={nextImage.url}/>
+                <CurrentImage image={currentImage.url} />
+                <ViewerControlls 
                     actionButton={(e) => changeSlide(e)}
-            />
+                />
             </div>
         </div>
     )

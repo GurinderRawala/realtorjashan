@@ -3,10 +3,8 @@ const WelcomeMessage = () =>{
     return(
         <div className="app-statement">
             <p>
-            Ryan Serhant is a real estate broker, CEO, and founder of SERHANT., a 
-            vertically-integrated mega brokerage comprising an in-house film studio, 
-            education arm, marketing division, and technology platform. He's also a 
-            bestselling author, producer, and star of Bravo's Million Dollar Listing New York and Sell It Like Serhant.
+            Jashan Grewal is a real estate broker, CEO, and founder of Dream homes by Jashan. Jashan Provides services in GTA and is and expert in 
+            commercial and private properties. Jashan had done over 25 million dollar sales in last 2 years. Contact Jashan today to find your dream property. 
             </p>
         </div>
     )

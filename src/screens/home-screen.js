@@ -7,13 +7,13 @@ import WelcomSection from '../components/welcome-section';
 
 const HomeScreen = () =>{
     return(
-      <>
-      <WelcomSection />
-      <Introduction />
-      <PhotoViewer />
-      <AlfaSection />
-      <SellItLikeJashan />
-      </>
+        <>
+            <WelcomSection />
+            <Introduction />
+            <PhotoViewer />
+            <AlfaSection />
+            <SellItLikeJashan />
+        </>
     )
 }
 

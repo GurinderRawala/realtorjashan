@@ -4,7 +4,7 @@ import Contact from "../components/contact";
 const ContactScreen = () =>{
     return(
         <>
-        <Contact />
+            <Contact />
         </>
     )
 }

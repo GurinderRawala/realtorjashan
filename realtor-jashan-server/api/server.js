@@ -22,8 +22,8 @@ module.exports.startServer = async (config) =>{
     server.use( (error, req, res, next) => {
         let err;
         Object.keys( error?.err || error?.serverErr ).length === 0
-        ?err = { [Object.keys(error)]: {_message: "Something went Wrong. Contact admin for support"} }
-        :err= error
+            ?err = { [Object.keys(error)]: {_message: "Something went Wrong. Contact admin for support"} }
+            :err= error
         res.send(err)
         next()
     }) 

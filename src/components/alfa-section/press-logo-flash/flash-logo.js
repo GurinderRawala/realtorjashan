@@ -17,17 +17,17 @@ export const FlashLogo = ({data}) =>{
     return (
         <>
             {
-             data[divIndex].map((pressLogo, i) => {
+                data[divIndex].map((pressLogo, i) => {
                
-                 return(
-                    <div key={i} >
-                        {
-                            Object.values(pressLogo).map((imgUrl, i) => 
-                            <img key={i} src={imgUrl} alt='imgs-alo' style={{maxWidth: '100%', height: 'auto', margin: 12}} />)
-                        }
-                     </div> 
-                 )
-             })
+                    return(
+                        <div key={i} >
+                            {
+                                Object.values(pressLogo).map((imgUrl, i) => 
+                                    <img key={i} src={imgUrl} alt='imgs-alo' style={{maxWidth: '100%', height: 'auto', margin: 12}} />)
+                            }
+                        </div> 
+                    )
+                })
             }
         </>
     )
