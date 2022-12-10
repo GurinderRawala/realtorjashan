@@ -1,7 +1,7 @@
 {
   "name": "realtorjashan",
   "version": "0.1.0",
-  "homepage": "https://realtorjashan.herokuapp.com",
+  "homepage": "https://realtorjashan.com",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
