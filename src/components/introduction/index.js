@@ -15,31 +15,31 @@ const Introduction = () =>{
             </div>
             <div data-aos="fade-up" className="col-sm-6 col-lg-7">
                 <IntroHeading 
-                backgroundImage={backgroundImage}
-                title={title}
-               />
-            <p>{intro}</p>
-            <br />
-            <h3>{sales.heading}</h3>
-            <div className="row">
-                <div className="col-sm-12 col-lg-6">
-                <p style={{fontSize: 60, fontWeight: '900'}}>{sales.money}</p>
+                    backgroundImage={backgroundImage}
+                    title={title}
+                />
+                <p>{intro}</p>
+                <br />
+                <h3>{sales.heading}</h3>
+                <div className="row">
+                    <div className="col-sm-12 col-lg-6">
+                        <p style={{fontSize: 60, fontWeight: '900'}}>{sales.money}</p>
+                    </div>
+                    <div className="col-sm-12 col-lg-6">
+                        <p style={{fontSize: 22, fontWeight: '900'}}>{sales.details.title}<br />{sales.details.body}</p>
+                    </div>
                 </div>
-                <div className="col-sm-12 col-lg-6">
-                <p style={{fontSize: 22, fontWeight: '900'}}>{sales.details.title}<br />{sales.details.body}</p>
+                <br />
+                <hr style={{height: 3, color: 'white'}}/>
+                <br />
+                <p style={{fontSize: 22, fontWeight: '600'}}>{rankedBy.nyc}</p>
+                <p style={{color: '#ffffff55', lineHeight: 0.5}}>{rankedBy.footer}</p>
+                <br />
+                <p style={{fontSize: 22, fontWeight: '600'}}>{rankedBy.tdot}</p>
+                <p style={{color: '#ffffff55', lineHeight: 0.5}}>{rankedBy.footer}</p>
+                <div className="text-end">
+                    <button>Visit Grewal. Brokerage</button>
                 </div>
-            </div>
-            <br />
-            <hr style={{height: 3, color: 'white'}}/>
-            <br />
-            <p style={{fontSize: 22, fontWeight: '600'}}>{rankedBy.nyc}</p>
-            <p style={{color: '#ffffff55', lineHeight: 0.5}}>{rankedBy.footer}</p>
-            <br />
-            <p style={{fontSize: 22, fontWeight: '600'}}>{rankedBy.tdot}</p>
-            <p style={{color: '#ffffff55', lineHeight: 0.5}}>{rankedBy.footer}</p>
-            <div className="text-end">
-                <button>Visit Grewal. Brokerage</button>
-            </div>
             </div>
         </IntroContainer>
     )

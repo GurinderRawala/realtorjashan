@@ -31,9 +31,9 @@
     "server": "nodemon",
     "client": "react-scripts start",
     "dev": "npm start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "lint:fix": "eslint . --fix"
   },
-  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -53,6 +53,8 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^7.1.0"
+    "concurrently": "^7.1.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-react": "^7.31.11"
   }
 }

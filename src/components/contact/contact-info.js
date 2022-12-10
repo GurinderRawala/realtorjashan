@@ -5,9 +5,9 @@ const ContactInfo = ({info}) =>{
     return(
         <div data-aos="fade-left" className='app-statement' style={{ marginTop: 15}}>
             <p style={{padding: 15}}>
-            <b style={{color: 'goldenrod'}}><FaPhoneAlt size={24}/></b> {info.phone}<br/>
-            <b style={{color: 'goldenrod'}}><HiOutlineMail size={24}/></b> {info.email}<br/>
-            <b style={{color: 'goldenrod'}}><HiOfficeBuilding size={24}/></b> {info.address}<br/>
+                <b style={{color: 'goldenrod'}}><FaPhoneAlt size={24}/></b> {info.phone}<br/>
+                <b style={{color: 'goldenrod'}}><HiOutlineMail size={24}/></b> {info.email}<br/>
+                <b style={{color: 'goldenrod'}}><HiOfficeBuilding size={24}/></b> {info.address}<br/>
             </p>
         </div>
     )

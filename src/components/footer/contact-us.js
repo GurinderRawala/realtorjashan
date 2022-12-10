@@ -6,13 +6,13 @@ import footerStyle from "./footer-style";
 const ContactUs = ({title, phone, email}) =>{
     return(
         <>
-        <h1>{title}</h1>
-        <FaPhoneAlt /> &nbsp;{phone} <br />
-        <HiOutlineMail /> &nbsp;{email} <br />
-        <SocialMedia 
-        socialStyle={footerStyle.socialLink}
-        socialForFooter
-        />
+            <h1>{title}</h1>
+            <FaPhoneAlt /> &nbsp;{phone} <br />
+            <HiOutlineMail /> &nbsp;{email} <br />
+            <SocialMedia 
+                socialStyle={footerStyle.socialLink}
+                socialForFooter
+            />
         </>
     )
 }

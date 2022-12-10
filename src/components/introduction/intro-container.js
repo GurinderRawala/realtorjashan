@@ -4,7 +4,7 @@ const IntroContainer = ({children}) =>{
         <div className='row justify-content-lg-center'>
             <div className='col-sm-12 col-lg-11 theme-alfa'>
                 <div className='row'>
-                {children}
+                    {children}
                 </div>
             </div>
         </div>

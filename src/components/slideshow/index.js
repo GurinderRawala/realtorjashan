@@ -7,8 +7,8 @@ const SlideShow = () =>{
         <div className="row">
             <div className="col-sm-12" style={{padding: 0}}>
                 <SlideShowContainer 
-                Image={Image}
-                Text={Text}
+                    Image={Image}
+                    Text={Text}
                 />
             </div>
         </div>

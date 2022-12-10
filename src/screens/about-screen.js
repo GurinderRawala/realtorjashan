@@ -7,11 +7,11 @@ import AboutSectionTwo from '../components/about/about-section-two';
 const AboutScreen = () =>{
     return(
         <>
-        <AboutSectionOne />
-        <AboutSectionTwo />
-        <AboutSectionThree />
-        <AboutSectionFour />
-        <AboutSectionFive />
+            <AboutSectionOne />
+            <AboutSectionTwo />
+            <AboutSectionThree />
+            <AboutSectionFour />
+            <AboutSectionFive />
         </>
     )
 }

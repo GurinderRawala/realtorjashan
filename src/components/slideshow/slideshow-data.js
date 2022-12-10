@@ -5,9 +5,9 @@ const img4 = 'https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg
 
 export const slideShowData = [ 
     { 
-      img: img1, 
-      title: 'Dream Homes By Jashan', 
-      body: 'Where Dreams Come True'
+        img: img1, 
+        title: 'Dream Homes By Jashan', 
+        body: 'Where Dreams Come True'
     }, 
     {
         img: img2,
@@ -15,13 +15,13 @@ export const slideShowData = [
         body: 'Competetive Rates Exceptional Service'
     },
     {
-      img: img3,
-      title: 'Book An Appointment',
-      body: 'Meet, Jashan Grewal'
+        img: img3,
+        title: 'Book An Appointment',
+        body: 'Meet, Jashan Grewal'
     },
     {
-      img: img4,
-      title: 'Pre-Construction Projects',
-      body: 'Exclucive Access, Guaranteed Allocations'
+        img: img4,
+        title: 'Pre-Construction Projects',
+        body: 'Exclucive Access, Guaranteed Allocations'
     }
- ];
+];
