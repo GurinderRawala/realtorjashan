@@ -8,6 +8,6 @@ export const Style = {
     },
     img:{
         width: '100%',
-        height: 350
+        height: 450
     }
 }

@@ -38,7 +38,7 @@ const Introduction = () =>{
                 <p style={{fontSize: 22, fontWeight: '600'}}>{rankedBy.tdot}</p>
                 <p style={{color: '#ffffff55', lineHeight: 0.5}}>{rankedBy.footer}</p>
                 <div className="text-end">
-                    <button>Visit Grewal. Brokerage</button>
+                    <button onClick={() => window.open(`https://www.c21.ca/directory/offices/century-21-royaltors-realty-inc-brokerage`, '_blank')}>Visit Royalters Brokerage</button>
                 </div>
             </div>
         </IntroContainer>

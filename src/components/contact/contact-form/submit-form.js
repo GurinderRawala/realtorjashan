@@ -5,7 +5,7 @@ export const submitForm = ({ collection }) =>{
     const { post, res } = apiRequest()
     const submit = (event) =>{
         event.preventDefault()
-        post(realtorJashanServer,'/api/contact-us', collection)
+        post(realtorJashanServer,'/contacts', collection)
     }
     return { submit, res }
 }

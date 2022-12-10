@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from './container'
 import Logo from './logo'
-import VideoSection from './video-section'
+import { ImageSection } from './image-section'
 import WelcomeButtons from './welcome-buttons'
 import WelcomeMessage from './welcome-message'
 const WelcomSection = () =>{
@@ -11,7 +11,7 @@ const WelcomSection = () =>{
             WelcomeMessage={WelcomeMessage}
             WelcomeButtons={WelcomeButtons}
         >
-            <VideoSection />
+            <ImageSection />
         </Container>
     )
 }

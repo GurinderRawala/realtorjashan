@@ -5,17 +5,18 @@ export const s = {
     },
     subTitle: {
         color: 'black', 
-        fontSize: 25, 
-        padding: 5
+        fontSize: 22, 
+        padding: 20,
+        fontWeight: 400
     },
     sideA: {
-        height: 750,
-        justifyContent: 'space-between', 
+        height: 550,
+        justifyContent: 'space-evenly', 
         padding: 0
     },
     sideB: {
-        justifyContent: 'space-between', 
-        height: 750, 
+        justifyContent: 'center', 
+        height: 550, 
         padding: 0
     }
 }

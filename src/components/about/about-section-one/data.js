@@ -1,17 +1,20 @@
+import jashanProfile from '../../../assets/jashan-profile.jpg';
 export const data = {
     heading: {
         partOne: 'ABOUT',
         partTwo: 'JASHAN'
     },
     content: {
-        bold: 'Labore laboris dolor nulla dolore dolore et amet ipsum id in Lorem.',
-        paragraph: `  Velit incididunt enim incididunt culpa anim dolore. 
-        Ipsum mollit esse est sit. Ut non duis commodo enim officia non 
-        nisi laboris enim ea mollit excepteur. Nulla do elit cillum ullamco 
-        dolore Lorem aliqua aliqua nostrud irure eu culpa.Amet ipsum deserunt ut ut veniam 
-        in enim ipsum nulla in magna culpa veniam exercitation. Do dolor elit magna nulla 
-        officia aliqua deserunt fugiat consectetur labore. Deserunt eiusmod aliqua magna 
-        labore eiusmod officia eu esse.`
+        bold: 'An enthusiastic person who believes in coverting dreams to reality.',
+        paragraphOne: `Hi, my name is Jashan Grewal and I can help to find your first dream house or help you invest and grow. 
+        Your local real estate agent with great vision and success. There is a big difference between buying a home and selling a home. They require tailored duties and services at each stage of the process.
+        If you are selling, I will expertly market your home through channels like social media, websites, and multiple listing services.
+        Conduct a comparative market analysis to demonstrate what other homes in your area have been sold for in the recent months.
+        Secure the assistance of other professionals for completing the paperwork accurately and while meeting critical deadlines.
+        Complete a property profile of your home, including current conditions, surroundings and special features.`,
+        paragraphTwo: `If you are buying a house, I will Educate you about the current housing market conditions. Discuss and analyze best alternatives that best fit your budget and criteria
+        Resolve any challenges that may arise when purchasing a new home.
+        Provide the highest quality of service so that you feel comfortable and confident in the process.`
     },
-    img: `https://ryanserhant.com/wp-content/themes/ryanserhant.com/assets/images/about/ip-about-agent-photo1.jpg`
+    img: jashanProfile
 }

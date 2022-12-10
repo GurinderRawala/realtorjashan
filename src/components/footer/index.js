@@ -3,7 +3,9 @@ import Logo from '../logo';
 import ContactUs from './contact-us';
 import CopyRight from './copyright';
 import Explore from './explore';
-import FeedBack from './feedback';
+import MapEmbed from "../contact/map-embed";
+import { data } from "../contact/data";
+// import FeedBack from './feedback';
 import footerData from './footer-data';
 const Footer = () =>{
     return(
@@ -25,7 +27,8 @@ const Footer = () =>{
                             <br />
                         </div>
                         <div className='col-sm-12 col-lg-5'>
-                            <FeedBack title={footerData.titleS4} questions={footerData.feedBack}/>
+                            <MapEmbed mapUrl={data.mapEmbedUrl} customStyle={{ height: 300 }}/>
+                            {/* <FeedBack title={footerData.titleS4} questions={footerData.feedBack}/> */}
                         </div>
                     </div>
                     <br />

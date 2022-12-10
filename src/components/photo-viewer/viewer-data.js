@@ -1,19 +1,57 @@
-// eslint-disable-next-line import/no-anonymous-default-export
+import img1 from "./viewer-imgs/1.jpg";
+import img2 from "./viewer-imgs/2.jpg";
+import img3 from "./viewer-imgs/3.jpg";
+import img4 from "./viewer-imgs/4.jpg";
+import img5 from "./viewer-imgs/5.jpg";
+import img6 from "./viewer-imgs/6.jpg";
+import img7 from "./viewer-imgs/7.jpg";
+import img8 from "./viewer-imgs/8.jpg";
+import img9 from "./viewer-imgs/9.jpg";
+import img10 from "./viewer-imgs/10.jpg";
+import img11 from "./viewer-imgs/11.jpg";
 export default  [
     { 
-        url: `https://ansunibaate.com/wp-content/uploads/2019/05/luxury-home-wallpaper-House-Images-HD-Photos-Gallery-Download.jpg`,
+        url: img1,
         title: `Text Here`
     },
     {
-        url: `https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg`,
+        url: img2,
         title: `Text Here`
     },
     {
-        url: `https://cdn.architecturendesign.net/wp-content/uploads/2015/06/Estuary-Custom-4-13.jpg`,
+        url: img3,
         title: `Text Here`
     },
     {
-        url: 'https://th.bing.com/th/id/R.1a9697c9c793cd5299e72842f005bde4?rik=fR3w6n7wraIWjg&pid=ImgRaw&r=0',
+        url: img4,
+        title: 'text here'
+    },
+    {
+        url: img5,
+        title: 'text here'
+    },
+    {
+        url: img6,
+        title: 'text here'
+    },
+    {
+        url: img7,
+        title: 'text here'
+    },
+    {
+        url: img8,
+        title: 'text here'
+    },
+    {
+        url: img9,
+        title: 'text here'
+    },
+    {
+        url: img10,
+        title: 'text here'
+    },
+    {
+        url: img11,
         title: 'text here'
     }
 

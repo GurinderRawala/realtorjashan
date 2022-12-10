@@ -1,5 +1,8 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: 'https://realtorjashan.herokuapp.com'
+    baseURL: '/laravel/api-permiles/public/api',
+    headers: {
+        Accept: 'application/json'
+    }
 })

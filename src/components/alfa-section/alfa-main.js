@@ -15,7 +15,7 @@ const AlfaMain = ({text}) =>{
                             <h1>{text.heading}</h1>
                             <p>{text.body}</p>
                             <div className="col-sm-12" style={{marginTop: 10}}>
-                                <button>BOOK JASHAN</button>
+                                <button onClick={() => window.location.href = "/contact"}>CONTACT JASHAN</button>
                             </div>
                         </div>
                     </div>
