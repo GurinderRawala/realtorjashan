@@ -1,4 +1,6 @@
 import React from "react";
+
+import ResponsiveImage from "../responsive-image"
 import { s } from "./contact-styles";
 const ContactImg = ({img}) =>{
     return(
@@ -10,7 +12,8 @@ const ContactImg = ({img}) =>{
                 </div>
                 <div data-aos="fade-up" 
                     className="contact-img backimg shade" 
-                    style={{ backgroundImage: `url(${img})`, ...s.domenstionImg , marginTop: 15, marginLeft: 15, zIndex: 1, opacity: 1, backgroundColor: 'transparent' }}>
+                    style={{ backgroundImage: `url(${img})`, ...s.domenstionImg , marginTop: 15, marginLeft: 15, zIndex: 1, opacity: 1, backgroundColor: '#333', padding: "20px 0px 0px 20px" }}>
+                    <ResponsiveImage src={img} />
                 </div>
             </div>
         </div>

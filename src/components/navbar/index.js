@@ -6,7 +6,6 @@ const Navbar = () =>{
         <NavbarContainer
             title={'JASHAN GREWAL'}
         >
-            <Link to="/">HOME</Link>
             <Link to="/contact">CONTACT</Link>
             <Link to="/about">ABOUT</Link>
         </NavbarContainer>
