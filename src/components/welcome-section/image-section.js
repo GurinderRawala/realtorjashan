@@ -2,7 +2,7 @@ import React from 'react'
 
 import  ResponsiveImage from '../responsive-image'
 
-const welcomeSectionImage = `https://assets.entrepreneur.com/content/3x2/2000/20150622231001-for-sale-real-estate-home-house.jpeg`
+const welcomeSectionImage = `https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`
 export const ImageSection = () =>{
     return(
         <div className='video-container'>

@@ -9,7 +9,7 @@ export default {
     ],
     titleS3: 'Contact',
     phone: '(437) 777-0007',
-    email: 'jashan_grewal@hotmail.com',
+    email: 'grewal_jashan@hotmail.com',
     titleS4: 'What are you interested in?',
     feedBack: [
         {
